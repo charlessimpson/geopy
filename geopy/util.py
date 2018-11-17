@@ -17,7 +17,7 @@ except ImportError:  # pragma: no cover
     pass
 
 
-__version__ = "1.18.1"
+__version__ = "2.0.0a0"
 
 logger = logging.getLogger('geopy')
 
