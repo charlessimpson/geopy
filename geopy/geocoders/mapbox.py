@@ -13,8 +13,6 @@ class MapBox(Geocoder):
 
     Documentation at:
         https://www.mapbox.com/api-documentation/
-
-    .. versionadded:: 1.17.0
     """
 
     api_path = '/geocoding/v5/mapbox.places/%(query)s.json/'
@@ -115,10 +113,6 @@ class MapBox(Geocoder):
         :param country: Country to filter result in form of
             ISO 3166-1 alpha-2 country code (e.g. ``FR``).
             Might be a Python list of strings.
-
-            .. versionchanged:: 1.19.0
-                Previously only a single string could be specified.
-                Now a Python list of individual countries is supported.
 
         :type country: str or list
 
