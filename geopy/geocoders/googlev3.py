@@ -42,7 +42,7 @@ class GoogleV3(Geocoder):
             user_agent=None,
             format_string=None,
             ssl_context=DEFAULT_SENTINEL,
-            channel='',
+            channel=''
     ):
         """
 
@@ -158,7 +158,7 @@ class GoogleV3(Geocoder):
             region=None,
             components=None,
             language=None,
-            sensor=False,
+            sensor=False
     ):
         """
         Return a location point by address.
@@ -233,7 +233,7 @@ class GoogleV3(Geocoder):
             exactly_one=True,
             timeout=DEFAULT_SENTINEL,
             language=None,
-            sensor=False,
+            sensor=False
     ):
         """
         Return an address by location point.
